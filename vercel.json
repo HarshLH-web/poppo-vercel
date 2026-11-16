@@ -10,13 +10,6 @@
   "routes": [
     {
       "src": "^/$",
-      "has": [
-        {
-          "type": "host",
-          "key": "host",
-          "value": "poppo.vercel.app"
-        }
-      ],
       "headers": {
         "Location": "https://poppoagencyofficial.com/"
       },
@@ -24,13 +17,6 @@
     },
     {
       "src": "^/agency/?$",
-      "has": [
-        {
-          "type": "host",
-          "key": "host",
-          "value": "poppo.vercel.app"
-        }
-      ],
       "headers": {
         "Location": "https://poppoagencyofficial.com/"
       },
@@ -38,13 +24,6 @@
     },
     {
       "src": "^/blog/?$",
-      "has": [
-        {
-          "type": "host",
-          "key": "host",
-          "value": "poppo.vercel.app"
-        }
-      ],
       "headers": {
         "Location": "https://poppoagencyofficial.com/blogs"
       },
@@ -52,13 +31,6 @@
     },
     {
       "src": "^/about/?$",
-      "has": [
-        {
-          "type": "host",
-          "key": "host",
-          "value": "poppo.vercel.app"
-        }
-      ],
       "headers": {
         "Location": "https://poppoagencyofficial.com/about-us"
       },
@@ -66,13 +38,6 @@
     },
     {
       "src": "^/privacy-policy/?$",
-      "has": [
-        {
-          "type": "host",
-          "key": "host",
-          "value": "poppo.vercel.app"
-        }
-      ],
       "headers": {
         "Location": "https://poppoagencyofficial.com/privacy-policy"
       },
@@ -80,13 +45,6 @@
     },
     {
       "src": "^/terms-conditions/?$",
-      "has": [
-        {
-          "type": "host",
-          "key": "host",
-          "value": "poppo.vercel.app"
-        }
-      ],
       "headers": {
         "Location": "https://poppoagencyofficial.com/terms-and-conditions"
       },
@@ -94,13 +52,6 @@
     },
     {
       "src": "^/blog/poppo-host-registration/?$",
-      "has": [
-        {
-          "type": "host",
-          "key": "host",
-          "value": "poppo.vercel.app"
-        }
-      ],
       "headers": {
         "Location": "https://poppoagencyofficial.com/register/become-poppo-host"
       },
@@ -108,13 +59,6 @@
     },
     {
       "src": "^/blog/become-poppo-agent/?$",
-      "has": [
-        {
-          "type": "host",
-          "key": "host",
-          "value": "poppo.vercel.app"
-        }
-      ],
       "headers": {
         "Location": "https://poppoagencyofficial.com/how-to-become-a-poppo-agent"
       },
@@ -122,13 +66,6 @@
     },
     {
       "src": "^/blog/poppo-coin-seller/?$",
-      "has": [
-        {
-          "type": "host",
-          "key": "host",
-          "value": "poppo.vercel.app"
-        }
-      ],
       "headers": {
         "Location": "https://poppoagencyofficial.com/register/become-poppo-coin-seller"
       },
